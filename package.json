@@ -1,0 +1,27 @@
+{
+  "type": "module",
+  "name": "gt-oscar-api",
+  "version": "1.0.0",
+  "description": "An API to get data from Georgia Tech's OSCAR website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KilHak/GT-OSCAR-API.git"
+  },
+  "author": "KilHak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KilHak/GT-OSCAR-API/issues"
+  },
+  "homepage": "https://github.com/KilHak/GT-OSCAR-API#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "form-data": "^4.0.0",
+    "got": "^12.1.0",
+    "ky": "^0.31.0",
+    "ky-universal": "^0.10.1"
+  }
+}
